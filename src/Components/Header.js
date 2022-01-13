@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../img/logo.svg';
 
-export default function Navbar() {
+export default function Header() {
   return (
     <nav>
       <Link to="/">
