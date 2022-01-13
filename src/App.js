@@ -1,10 +1,8 @@
 import React from 'react';
-import Hero from './Components/Hero';
 
 function App() {
   return (
     <div>
-      <Hero />
       <h2 id="how-it-works">How it works</h2>
       <ul>
         <li>We find the 500 top posts from the past year for a subreddit.</li>

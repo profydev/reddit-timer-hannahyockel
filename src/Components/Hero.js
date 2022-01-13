@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import table from '../img/table.png';
 
 export default function Hero() {
@@ -9,8 +10,12 @@ export default function Hero() {
         Great timing, great results! Find the best time to post on your
         subreddit.
       </p>
-      <button type="button">SHOW ME THE BEST TIME</button>
-      <p>r/javascript</p>
+      <Link to="/search">
+        <button type="button">SHOW ME THE BEST TIME</button>
+      </Link>
+      <Link to="/search">
+        <p>r/javascript</p>
+      </Link>
       <img src={table} alt="Reddit timer example" />
     </div>
   );
