@@ -1,0 +1,33 @@
+ /* bring in normalize.css styles */
+ 
+ @import-normalize;
+ /* rest of app styles */
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Montserrat&display=swap');
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: "Bitter", serif;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: #0087FF;
+ }
+ 
+ p,
+ nav a,
+ footer a {
+     font-family: "Montserrat", sans-serif;
+     color: #93918F;
+ }
+ 
+ nav,
+ footer {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
