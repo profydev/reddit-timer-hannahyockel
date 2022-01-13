@@ -1,5 +1,4 @@
 import React from 'react';
-import sign from './img/sign.svg';
 import table from './img/table.png';
 
 function App() {
@@ -29,20 +28,14 @@ function App() {
           {' '}
           <a href="https://profy.dev/">profy.dev</a>
           {' '}
-          with the goal to implement a pixel-perfect real-world application with
-          professional workflows and tools like Kanban, Asana, Zeplin, GitHub,
-          pull requests and code reviews.
+          with the goal to implement
+          a pixel-perfect real-world application with professional workflows and
+          tools like Kanban, Asana, Zeplin, GitHub, pull requests and code
+          reviews.
           {' '}
           <a href="https://profy.dev/">Click here for more information.</a>
         </p>
       </div>
-      <footer>
-        <a href="/">profy.dev</a>
-        <a href="/">
-          <img src={sign} alt="Sign" />
-        </a>
-        <a href="/">Terms & Privacy</a>
-      </footer>
     </div>
   );
 }
