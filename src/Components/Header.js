@@ -8,7 +8,7 @@ export default function Header() {
       <Link to="/">
         <img src={logo} alt="Logo" />
       </Link>
-      <Link to="/search">Search</Link>
+      <Link to="/search/javascript">Search</Link>
       <a href="#how-it-works">How it works</a>
       <a href="#about">About</a>
     </nav>
