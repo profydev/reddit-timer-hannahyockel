@@ -16,7 +16,7 @@ export default function InfoSection() {
       <p>
         This app was created during a course on
         {' '}
-        <a href="https://profy.dev/">profy.dev</a>
+        <a href="https://profy.dev">profy.dev</a>
         {' '}
         with the goal to implement
         a pixel-perfect real-world application with professional workflows and
