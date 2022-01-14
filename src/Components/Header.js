@@ -9,8 +9,8 @@ export default function Header() {
         <img src={logo} alt="Logo" />
       </Link>
       <Link to="/search/javascript">Search</Link>
-      <a href="#how-it-works">How it works</a>
-      <a href="#about">About</a>
+      <Link to="/how-it-works">How it works</Link>
+      <Link to="/about">About</Link>
     </header>
   );
 }
