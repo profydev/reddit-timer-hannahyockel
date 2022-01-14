@@ -7,7 +7,6 @@ import Hero from './Components/Hero';
 import Footer from './Components/Footer';
 import './index.css';
 
-// eslint-disable-next-line react/jsx-filename-extension
 ReactDOM.render(
   <BrowserRouter>
     <Header />
