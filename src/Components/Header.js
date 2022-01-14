@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import logo from '../img/logo.svg';
 
 export default function Header() {
@@ -9,8 +10,8 @@ export default function Header() {
         <img src={logo} alt="Logo" />
       </Link>
       <Link to="/search/javascript">Search</Link>
-      <Link to="/how-it-works">How it works</Link>
-      <Link to="/about">About</Link>
+      <HashLink to="/#how-it-works">How it works</HashLink>
+      <HashLink to="/#about">About</HashLink>
     </header>
   );
 }
