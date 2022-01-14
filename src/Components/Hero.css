@@ -1,0 +1,8 @@
+.Hero {
+    display: block;
+    text-align: center;
+}
+
+.Hero--link {
+    color: #0087FF;
+}

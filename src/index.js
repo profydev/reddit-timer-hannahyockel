@@ -11,10 +11,9 @@ import './index.css';
 ReactDOM.render(
   <BrowserRouter>
     <Header />
+    <Hero />
     <Routes>
-      <Route path="/" element={<App />}>
-        <Route path="/search" element={<Hero />} />
-      </Route>
+      <Route path="/" element={<App />} />
     </Routes>
     <Footer />
   </BrowserRouter>,

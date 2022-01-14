@@ -19,13 +19,14 @@
  }
  
  p,
- nav a,
+ li,
+ header a,
  footer a {
      font-family: "Montserrat", sans-serif;
      color: #93918F;
  }
  
- nav,
+ header,
  footer {
      display: flex;
      align-items: center;
