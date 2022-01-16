@@ -1,17 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+// eslint-disable-next-line import/named
 import App from './App';
-import Header from './Components/Header';
-import './index.css';
 
-// eslint-disable-next-line react/jsx-filename-extension
 ReactDOM.render(
-  <BrowserRouter>
-    <Header />
-    <Routes>
-      <Route path="/" element={<App />} />
-    </Routes>
-  </BrowserRouter>,
+  <Router>
+    <App />
+  </Router>,
   document.getElementById('root'),
 );
