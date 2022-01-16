@@ -1,3 +1,5 @@
+// Theme stores shared styles to be used in styled components
+
 const theme = {
   color: {
     text: '#93918f',

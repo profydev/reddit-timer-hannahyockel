@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import sign from '../img/sign.svg';
+import sign from './sign.svg';
 
 export default function Footer() {
   return (
