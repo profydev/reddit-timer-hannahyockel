@@ -29,16 +29,17 @@ export default function Header() {
   return (
     <header>
       <Container>
-        <Link to="/">
-          <Logo>
-            <img src={UnstyledLogo} alt="Logo" />
-          </Logo>
+        <Link to="/" role="link">
+          Home Page
+          <Logo />
         </Link>
         <nav>
-          <Link to="/search/javascript">Search</Link>
-          <Link to="/#how-it-works">How it works</Link>
-          <Link to="/#about">About</Link>
+          <Link to="/search/javascript" role="link">Search Page</Link>
+          <Link to="/#how-it-works" role="link">How it works</Link>
+          <Link to="/#about" role="link">About</Link>
         </nav>
+        <p id="how-it-works">How it works</p>
+        <p id="about">About</p>
       </Container>
     </header>
   );
