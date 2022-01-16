@@ -15,7 +15,7 @@ export default function App() {
       <GlobalStyle />
       <Header />
       <Routes>
-        <Route path="/search">Search Page</Route>
+        <Route path="/search/javascript">Search</Route>
         <Route path="/">Home Page</Route>
         <Route>404 - Not Found</Route>
       </Routes>

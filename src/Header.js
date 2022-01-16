@@ -38,8 +38,6 @@ export default function Header() {
           <Link to="/#how-it-works" role="link">How it works</Link>
           <Link to="/#about" role="link">About</Link>
         </nav>
-        <p id="how-it-works">How it works</p>
-        <p id="about">About</p>
       </Container>
     </header>
   );
