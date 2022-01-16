@@ -1,28 +1,24 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-  /** Montserrat Regular **/
   @font-face {
     font-family: "Montserrat";
     font-weight: 400;
     font-style: normal;
   }
 
-  /** Montserrat Medium **/
   @font-face {
     font-family: "Montserrat";
     font-weight: 500;
     font-style: normal;
   }
 
-  /** Montserrat SemiBold **/
   @font-face {
     font-family: "Montserrat";
     font-weight: 600;
     font-style: normal;
   }
 
-  /** Montserrat Bold **/
   @font-face {
     font-family: "Montserrat";
     font-weight: 700;
@@ -34,7 +30,11 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-size: 12px;
+    font-family: ${(props) => props.theme.font.family.default};
+    font-size: ${(props) => props.theme.font.size.default};
+    line-height: ${(props) => props.theme.font.lineHeight.default};
+    color: ${(props) => props.theme.color.text};
+  }
   }
 `;
 
