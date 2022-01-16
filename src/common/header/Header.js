@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../img/logo.svg';
+import logo from './logo.svg';
+
+// renders a couple of links in a nav element plus the logo as an additional link
 
 function Header() {
   return (

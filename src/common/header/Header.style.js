@@ -14,5 +14,5 @@ export const Logo = styled(UnstyledLogo)`
 `;
 
 export const Link = styled(UnstyledLink)`
-
+  margin-left: 1.5rem;
 `;
